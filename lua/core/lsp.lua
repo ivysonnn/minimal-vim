@@ -1,11 +1,14 @@
 vim.lsp.enable({
     "gopls",
-    "lua_ls"
+    "lua_ls",
+    "clangd",
+    "rust_analyzer",
+    "tsserver",
 })
 
 vim.diagnostic.config({
-    virtual_lines = true,
-    -- virtual_text = true,
+    -- virtual_lines = true,
+    virtual_text = true,
     underline = true,
     update_in_insert = false,
     severity_sort = true,

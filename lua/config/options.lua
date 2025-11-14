@@ -21,3 +21,7 @@ vim.opt.inccommand = 'split'
 vim.opt.cursorline = true
 vim.opt.scrolloff = 10
 vim.opt.winborder = "solid" -- https://neovim.io/doc/user/options.html#'winborder'
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+vim.b.sleuth_automatic = 0
+vim.opt.guicursor = "n-v-c:block,i:block,r:hor20"
